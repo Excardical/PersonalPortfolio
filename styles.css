@@ -249,7 +249,7 @@ span {
     color: white;
 }
 
-.contact-container {
+#profile-link {
     display: inline-flex;
     align-items: center;
     position: relative;
@@ -258,7 +258,7 @@ span {
     margin: 0;
 }
 
-.contact-container::after { 
+#profile-link::after { 
     content: "";
     position: absolute;
     width: 100%;
@@ -271,7 +271,7 @@ span {
     transition: transform 0.25s ease-out;
 }
 
-.contact-container:hover::after  {
+#profile-link:hover::after  {
     text-decoration: underline;
     transform: scaleX(1);
     transform-origin: bottom left;
